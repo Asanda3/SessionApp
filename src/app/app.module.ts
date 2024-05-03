@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ColorShapeComponent } from './color-shape/color-shape.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColorShapeComponent
   ],
   imports: [
     BrowserModule,
